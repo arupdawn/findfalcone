@@ -8,7 +8,7 @@ You need to have nodejs installed on your machine. If you don’t, please go to 
 
 ## How to run the App
 Simply go to the directory name geektrust on your local machine.
-### `cd geektrust`
+### `cd findfalcone`
 
 In the project directory, you can run:
 ### `npm start`
