@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  background-color: rgb(194, 193, 193);
+}
+
+.Content{
+  display: inline-block;
+  width: 90%;
+  background-color: antiquewhite;
+  background-image: url("http://images.pexels.com/photos/934062/pexels-photo-934062.jpeg");
+  
+  /* Add the blur effect */
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height:590px;
+  margin-top:-10px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#Veh1,#Veh2,#Veh3,#Veh4{
+  display:none;
+}
+
+.MainClass{
+  display:flex;
+}
+.Planets{
+  width:25%;
+  
+  text-align: left;
+  
+  background-color: white;
+  margin-top: 30px;
+  margin: 15px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p,select{
+  margin-left: 10px;
+}
+
+p{
+  font-size: 16px;
+}
+
+radio{
+  margin-right: 5px;
+}
+
+select{
+   width: 150px;
+   height: 25px;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.Menu-style {
+  overflow: hidden;
+  background-color: rgb(59, 59, 59);
+  background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg");
+  background-size: cover;
+  display: inline-block;
+  width: 90%;
+  margin-bottom: 0px;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.Menu-style a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 29px;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.Menu-style a:hover {
+  background-color: rgb(22, 22, 22);
+  color: rgb(210, 228, 49);
+}
+
+footer{
+  height: 70px;
+  color: white;
+  padding: 23px 25px;
+  background-color: rgb(80, 45, 45);
+
+  background-image: url("https://images.wallpaperscraft.com/image/stains_texture_background_dark_50791_1920x1080.jpg");
+  background-size: cover;
+
+  bottom: 0px;
+  width: 90%;
+  display: inline-block;
+}
+
+.Footer{
+  text-align: center;
+}
+
+.menu{
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.btn-light{
+  margin:15px 15px;
+  display: none;
+}
+
+.topnav {
+  margin-top:-5px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.topnav #myLinks {
+  display: inline-block;
+  width:90%;
+  
+}
+
+.topnav a {
+  color: white;
+  background-color: maroon;
+  background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg");
+  padding: 9px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(22, 22, 22);
+  color: rgb(210, 228, 49);
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 1030px) {
+    .btn-light{
+      display:block;
+    }
+    .Menu-style a{
+      display:none;
+    }
+    .Menu-style a:hover{
+      display:none;
+    }
+    .MainClass{
+      flex-direction: column;
+    }
+    .Planets{
+      width:92%;
+    }
+    .Content{
+      height:100%;
+    }
+    
+}
